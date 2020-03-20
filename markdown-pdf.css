@@ -1,0 +1,228 @@
+/*
+ * Markdown PDF CSS
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+    font-family:  'EB Garamond', serif;
+    font: normal normal 400;
+	font-size: 11pt;
+	line-height: 1.2em;
+	/*also written as...  font: normal normal 400 100%/1.5em;*/
+	/*margin-top: 1em;
+	margin-left: 1em;*/
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+}
+
+h1 {
+    text-align: left;
+	font-size: 2em;
+    line-height: 1.4em;
+    display: inline;
+}
+
+h1+p {
+	/*subtitle*/
+	font-style: italic;
+	font-size: 110%;
+}
+
+h2 {
+    font-size: 1.2em;
+	color: #000;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    padding-left: 0.5em;
+    top: 1em;
+    border-bottom: 1px solid #000;
+    border-left: 5px solid #666;
+    font-variant: small-caps;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 2em;
+	color: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ul {
+	margin-bottom: 0.4em;
+	/*margin-top: -0.5em;*/
+}
+
+li:before {
+    content: "-";
+    margin-right: 0.4em;
+}
+
+#webaddress {
+	color: #666;
+    font-size: 100%;
+    float:right;
+    margin-right:-0.5em;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+#webaddress li:before {
+    content: "";
+    margin-right: 0.4em;
+}
+
+#webaddress li:after {
+    content: "|";
+    margin-left: 0.4em;
+}
+
+#webaddress li:last-child:after {
+    content: "";
+}
+
+#webaddress li {
+    float: left;
+    margin-top: 1.2em;
+    padding-right: 0;
+}
+
+li {
+    padding-left: 0.8em;
+    text-indent: -0.8em;
+    text-align: justify;
+    margin-bottom: 0.25em;
+}
+
+li ul {
+	position: relative;
+	left: 0;
+	width: 100%;
+	margin-top: 0.25em;
+}
+
+p {
+	margin-bottom: 0.2em;
+	margin-right: 0;
+}
+
+code {
+	font: normal normal;
+	font-size: 90%;
+	/*line-height: 1em;*/
+	color: #ccc;
+}
+
+p code {
+	float: right;
+}
+
+a {
+	color: inherit;
+	text-decoration: none
+}
+
+a:hover {
+	color:#39f
+}
+
+em {
+	font-style: italic;
+	color: #2d4e5e
+}
+
+strong {
+	font-weight: 600;
+}
+
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #222; /* Change the old color so it seems less like an error */
+    font-size: 90%;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+#ghbutton {
+	display: none;
+	visibility: hidden;
+}
+
