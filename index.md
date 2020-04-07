@@ -17,7 +17,7 @@ title: Sung-Han Lin's Resume
 `2010 – 2017`
 Ph.D. in Computer Science - *University of Southern California*, Los Angeles, California, U.S.A.
 
-- __Dissertation__: Distributed Resource Management for QoS-Aware Service Provision
+- Dissertation: __Distributed Resource Management for QoS-Aware Service Provision__
 - Teaching Assistant, __CSci 402: Operating Systems__, Fall 2012 - Summer 2017
 
 `2002 – 2008`
@@ -28,10 +28,10 @@ B.S. and M.S. in Computer Science (CSIE) - *National Taiwan University*, Taipei,
 `October 2017 - Present`
 Performance Analysis Engineer & Data Scientist - *NetApp Inc.*
 
-- __Improving GPU Data Pipeline__: [*Python*, *TensorFlow*, *Horovod*, *Container*, *MPI*, *Kubernetes*, *S3*]
+- __ONTAP AI: Improving GPU Data Pipeline__: [*Python*, *TensorFlow*, *Horovod*, *Container*, *MPI*, *Kubernetes*, *S3*]
    - Designed and Deployed the AI/ML/DL reference architecture combining NVIDIA DGX systems and NetApp storage systems for distributed TensorFlow training and inference over the RoCE connections.
    - Identified the bottleneck of the end-to-end data pipelines; improved the GPU utilization, data feeding rate, and training speed via better configuring the CPU workload and multithreading, the GPU memory usage, and network interconnections, mainly on image recognition training and inferencing (ResNet, VGG, Inception).
-   - Adopted NVIDIA NGC and libraries to build our reference architecture; implemented and optimized ML/DL training models, and published joined Technical Report with NVIDIA on various verticals - autonomous vehicle (Mask-R-CNN), financial (Semi-supervised GAN, Auto-Encoder), and health care (NVIDIA Clara).
+   - Adopted NVIDIA NGC and libraries to build our reference architecture; implemented and optimized ML/DL training models, and published joined Technical Report with NVIDIA on various verticals - autonomous vehicle (Mask-R-CNN), financial (Semi-supervised GAN, Auto-Encoder), and virtual assistant (BERT).
 - __Data Operation Failover__: Built the automation and investigated the executing path of failover, where the secondary clusters takes over the write operations from the primary cluster; helped reduce the latency via improving the logic of triggering failover and reducing the function overhead. [*C/C++*, *Python*]
 - __Synchronous Replication__: Built the automation and investigated the latency of replicating write operations to the remote cluster synchronously; helped reduce the overhead of transmission via identifying the bottleneck and improving the concurrency of parallel operations. [*C/C++*, *Tcl*, *Python*]
 - __Advanced Block Fetching__: Investigated the block prefetching strategies to reduce the read overhead and latency caused by the new checksum mechanism for disks; improved the read throughput by 20\%. [*C/C++*]
@@ -49,7 +49,7 @@ Intern - *Teradata*
 
 ## Selected Research Projects
 
-- __Throughput Estimation for Large-scale Deep Learning__: Analyzed the traffic pattern of Asynchronous SGD training in the parameter-server architecture, and built a queueing network model to estimate the training speed (examples processed per second) of distributed TensorFlow GPU training jobs; leveraged the estimation model to address a problem of scheduling heterogeneous distributed DNN training jobs in a computing cluster.
+- __Throughput Maximization for Large-scale Deep Learning__: Analyzed the traffic pattern of the Asynchronous SGD training in the parameter-server architecture, and built a queueing network model to estimate the training speed (examples processed per second) of distributed TensorFlow GPU training jobs; leveraged the estimation model to address a problem of scheduling heterogeneous distributed DNN training jobs in a shared cluster.
 
 ## Talk
 
