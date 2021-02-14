@@ -18,14 +18,17 @@ title: Sung-Han Lin's Resume
 Ph.D. in Computer Science - *University of Southern California*, Los Angeles, California, U.S.A.
 
 - Dissertation: __Distributed Resource Management for QoS-Aware Service Provision__
-- Teaching Assistant, __CSci 402: Operating Systems__, Fall 2012 - Summer 2017
+<!-- - Teaching Assistant, __CSci 402: Operating Systems__, Fall 2012 - Summer 2017 -->
 
 `2002 – 2008`
 B.S. and M.S. in Computer Science (CSIE) - *National Taiwan University*, Taipei, Taiwan
 
 ## Selected Work Experience
 
-`October 2017 - Present`
+`January 2021 - Present`
+Performance and Capacity Engineer - *Facebook*
+
+`October 2017 - January 2021`
 Performance Analysis Engineer & Data Scientist - *NetApp Inc.*
 
 - __ONTAP AI: Improving GPU Data Pipeline__: [*Python*, *TensorFlow*, *Horovod*, *Container*, *MPI*, *Kubernetes*, *S3*]
@@ -51,9 +54,9 @@ Intern - *Teradata*
 
 - __Throughput Maximization for Large-scale Deep Learning__: Analyzed the traffic pattern of the Asynchronous SGD training in the parameter-server architecture, and built a queueing network model to estimate the training speed (examples processed per second) of distributed TensorFlow GPU training jobs; leveraged the estimation model to address a problem of scheduling heterogeneous distributed DNN training jobs in a shared cluster.
 
-## Talk
+## Selected Talk
 
-- __Performance Considerations for AI and ML Deployments__, NetApp INSIGHT Las Vegas, October 2019
+- __Data Pipeline and Performance Considerations for NetApp AI__, NetApp INSIGHT Digital Event, 2020
 <!-- ### Footer Last updated: May 2013 -->
 
 
