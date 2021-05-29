@@ -2,17 +2,7 @@
  * Markdown PDF CSS
  */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
-
-body {
-    font-family:  'EB Garamond', serif;
-    font: normal normal 400;
-	font-size: 11pt;
-	line-height: 1.2em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	/*margin-top: 1em;
-	margin-left: 1em;*/
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,6 +24,17 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+body {
+    font-family:  'Source Serif Pro', serif;
+    font: normal normal 400;
+	font-size: 11pt;
+	line-height: 1.2em;
+	/*also written as...  font: normal normal 400 100%/1.5em;*/
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -58,11 +59,13 @@ h1+p {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.6em;
 	color: #000;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
-    padding-left: 0.5em;
+	padding-top:0.1em;
+    padding-left: 0.3em;
+	padding-bottom: 0.1em;
     top: 1em;
     border-bottom: 1px solid #000;
     border-left: 5px solid #666;
